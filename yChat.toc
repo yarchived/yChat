@@ -2,7 +2,12 @@
 ## Title: |cffff8800y|rChat
 ## OptionalDeps: !ClassColors, tekDebug
 
-yChat.lua
+
 gfw.lua
+globals.lua
+slash.lua
+sound.lua
+sticky.lua
 URLCopy.lua
+yChat.lua
 
