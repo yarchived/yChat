@@ -1,0 +1,8 @@
+## Interface: 40000
+## Title: |cffff8800y|rChat
+## OptionalDeps: !ClassColors, tekDebug
+
+yChat.lua
+gfw.lua
+URLCopy.lua
+
