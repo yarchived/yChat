@@ -105,7 +105,7 @@ do
         ['achievement'] = function(i) return (select(10, GetAchievementInfo(i))) end,
     }
 
-    local IconLink = '|T%s:14:14:0:0:64:64:4:60:4:60|t%s'
+    local IconLink = ' |T%s:14:14:0:0:64:64:4:60:4:60|t %s'
     -- |TTexturePath:size1:size2:xoffset:yoffset:dimx:dimy:coordx1:coordx2:coordy1:coordy2|t
     -- http://www.wowwiki.com/UI_escape_sequences
 
