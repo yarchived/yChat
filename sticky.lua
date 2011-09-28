@@ -12,6 +12,6 @@ ChatTypeInfo['WHISPER'].sticky = 0
 --ChatTypeInfo['CHANNEL'].sticky = 1
 
 for i = 1, 10 do
-    ChatTypeInfo['CHANNEL'..i] = i<5 and 0 or 1
+    ChatTypeInfo['CHANNEL'..i].sticky = i<5 and 0 or 1
 end
 
