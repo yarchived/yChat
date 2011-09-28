@@ -3,14 +3,14 @@
 
 --[[	class color	]]
 local dummy = function() end
-local _, pClass = UnitClass'player'
 local ts
 --local ts = '|cffffffff|HyChat|h%s|h|||r %s'
 --local ts = '|cffffffff|HyChat|h%s|h|r %s'
 --local ts = '|cff68ccef|HyChat|h%s|h|r %s'
 
 do
-    local c = CUSTOM_CLASS_COLORS and CUSTOM_CLASS_COLORS[pClass] or RAID_CLASS_COLORS[pClass]
+    local class = select(2, UnitClass'player')
+    local c = CUSTOM_CLASS_COLORS and CUSTOM_CLASS_COLORS[class] or RAID_CLASS_COLORS[class]
     ts = '|cff'.. format('%02x%02x%02x',c.r*255,c.g*255,c.b*255) ..'|HyChat|h%s|h|r %s'
 end
 
