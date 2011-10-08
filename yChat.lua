@@ -106,6 +106,11 @@ do
 
                 cf:SetClampedToScreen(false)
                 cf:SetFading(false)
+                cf:SetMaxResize('1024', '800')
+                do
+                    local a,b,c,d = cf:GetClampRectInsets()
+                    cf:SetClampRectInsets(a,b,c,-2)
+                end
 
                 cf:EnableMouseWheel(true)
                 if(cf:GetScript'OnMouseWheel') then
