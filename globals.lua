@@ -6,7 +6,6 @@ CHAT_FLAG_GM = '<GM>'
 -- CHAT_AFK_GET
 -- CHAT_DND_GET
 
-CHAT_MONSTER_EMOTE_GET = ''
 CHAT_MONSTER_PARTY_GET = '|Hchannel:Party|hp|h %s:\32'
 CHAT_MONSTER_SAY_GET = '%s：\32'
 CHAT_MONSTER_WHISPER_GET = 'from %s:\32'
@@ -22,7 +21,7 @@ CHAT_PARTY_LEADER_GET = '|Hchannel:party|hP|h %s:\32'
 CHAT_PARTY_GUIDE_GET = '|Hchannel:party|hP|h %s:\32'
 CHAT_RAID_WARNING_GET = 'rw %s:\32'
 CHAT_RAID_LEADER_GET = '|Hchannel:raid|hR|h %s:\32'
-CHAT_OFFICER_GET = '|Hchannel:o|ho|h %s:\32'
+CHAT_OFFICER_GET = '|Hchannel:OFFICER|ho|h %s:\32'
 CHAT_BATTLEGROUND_GET = '|Hchannel:Battleground|hb|h %s:\32'
 CHAT_BATTLEGROUND_LEADER_GET = '|Hchannel:Battleground|hB|h %s:\32'
 CHAT_WHISPER_GET = 'from %s:\32'
