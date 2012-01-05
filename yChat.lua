@@ -60,7 +60,7 @@ local function AddMessage(self, text, ...)
         -- simple chat icon, grab from iconify by xconstruct
         text = text:gsub('(|c%x+|H.-|h|r)', iconify)
 
-        text = text:gsub('|Hplayer:([^:]+):(%d+)|h%[(.-)%]|h', '|Hplayer:%1:%2|h%3|h')
+        text = text:gsub('|Hplayer:([^:]+):([^|]+)|h%[(.-)%]|h', '|Hplayer:%1:%2|h%3|h')
         --text = text:gsub('%[(%d+)%. (.+)%].+(|Hplayer.+)', str)
         text = text:gsub('%[(%d+)%. (.-)%].+(|Hplayer.+)', channel)
 
